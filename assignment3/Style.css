@@ -1,0 +1,38 @@
+header {
+    color: darkviolet;
+    background-color: palevioletred;
+    text-decoration: wavy;
+}
+
+h1 {
+    color: #d46dee;
+    background-color: aqua;
+}
+h2 {
+    color: teal;
+    background-color: chocolate;
+}
+h3 {
+    color: red;
+    background-color: cornflowerblue;
+}
+
+.turngreen {
+    color:green;
+    text-decoration: underline;
+}
+
+#redblue {
+    color: red;
+    background-color: cornflowerblue;
+}
+
+a {
+    color:red;
+}
+a:visited{
+    color:green;
+}
+a:hover {
+    color:yellow;
+}
