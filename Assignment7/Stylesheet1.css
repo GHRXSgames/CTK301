@@ -1,0 +1,137 @@
+body {
+    background-color: gray;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.center {
+    grid-column: span 12;
+    background-color: white;
+    border: 4px solid blue;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    grid-column: span 12;
+    background-image: linear-gradient(dodgerblue, blue)
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 15px;
+}
+
+header a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+}
+
+nav {
+    grid-column: span 12;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    float: left;
+    width: 252.3px;
+    background-image: linear-gradient(dodgerblue, blue);
+    color: lightskyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 15px;
+}
+
+nav li a:hover {
+    color: white;
+    background-image: linear-gradient(blue, dodgerblue);
+}
+
+h2 {
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    grid-column: span 8;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: orange;
+}
+
+
+aside {
+    grid-column: span 4;
+    background-color: lightskyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: auto;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: red;
+    padding: 10px;
+    border-top: 4px solid blue;
+    margin-top: 0;
+}
+
+.divider {
+    grid-column: span 4;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.divider a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.divider a:hover {
+    color: orange;
+}
+
+#imgmain {
+    float: left;
+    border: 3px solid blue;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+#imgabout {
+    float: right;
+    border: 3px solid blue;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
