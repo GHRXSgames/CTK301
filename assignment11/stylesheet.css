@@ -1,0 +1,123 @@
+body {
+    background-color: white;
+    margin: auto;
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: auto;
+}
+
+header {
+    grid-column: span 12;
+    background-color: orange;
+    color: white;
+}
+
+h1 {
+    font-family: Pretendo;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+nav {
+    grid-column: span 12;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    background-color: darkmagenta;
+    color: white;
+    font-family: Pretendo;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 15px;
+    transition: 0.7s;
+}
+
+nav li a:hover {
+    color: white;
+    filter: drop-shadow(0 0 0.75rem #d46dee);
+    background-color: purple;
+    border-radius: 5px;
+}
+
+main {
+    grid-column: span 8;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: white;
+    background-color: darkmagenta;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    grid-column: span 4;
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 0.7em;
+    margin-bottom: 1em;
+    border-radius: 50px;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside li {
+    padding-bottom: 20px;
+}
+
+aside a {
+    color: darkmagenta;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+aside a:hover {
+    color: purple;
+}
+
+aside h3 {
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+#imgabout {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    text-decoration: underline;
+    color: purple;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.divider {
+    clear: both;
+}
